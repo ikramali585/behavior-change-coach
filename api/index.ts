@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { webhookRouter } from '../src/routes/webhooks';
-import { reminderService } from '../src/services/reminderService';
+import { webhookRouter } from '@/routes/webhooks';
+import { reminderService } from '@/services/reminderService';
 
 const app = express();
 
