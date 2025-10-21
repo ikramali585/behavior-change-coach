@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/trigger-reminders",
+      "schedule": "0 9 * * *"
+    }
+  ]
+}
